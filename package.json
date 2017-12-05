@@ -1,0 +1,60 @@
+{
+  "name": "terribly-tiny-tales",
+  "version": "1.0.0",
+  "description": "Assignment for TTT",
+  "main": "app.js",
+  "scripts": {
+    "babel": "babel main.js",
+    "start": "webpack --config webpack.config.js && node app",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charvik2020/terribly-tiny-tales.git"
+  },
+  "author": "Charvik Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charvik2020/terribly-tiny-tales/issues"
+  },
+  "homepage": "https://github.com/charvik2020/terribly-tiny-tales#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "lodash": "^4.17.4",
+    "morgan": "~1.6.1",
+    "mysql": "^2.10.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "request": "^2.74.0",
+    "serve-favicon": "~2.3.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "jshint": "^2.9.1",
+    "sass-loader": "^6.0.6",
+    "mocha": "^3.0.1",
+    "node-sass": "^4.5.3",
+    "should": "^10.0.0",
+    "style-loader": "^0.18.2",
+    "supertest": "^2.0.0",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-hot-middleware": "^2.20.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "node": true,
+    "multistr": true,
+    "globalstrict": true,
+    "mocha": true
+}
