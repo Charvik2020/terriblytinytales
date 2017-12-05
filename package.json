@@ -6,7 +6,6 @@
   "scripts": {
     "babel": "babel main.js",
     "start": "webpack --config webpack.config.js && node app",
-	"postinstall": "npm run build",
     "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
