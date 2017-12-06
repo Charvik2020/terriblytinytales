@@ -11,7 +11,7 @@ var mockReqBody = require('./testBody.json');
 
 describe('TTT', function() {
     this.timeout(10000);
-    var url = 'http://localhost:7080';
+    var url = 'https://terriblytinytales.herokuapp.com/';
     var validationPath = '/submitNumber';
 
     it('Number value present in body', function(done) {
