@@ -44,3 +44,6 @@ Display the top N words and their frequency of occurrence in the frontend, in a 
 
 - No Data Found for that perticular frequency
 <img src="https://github.com/Charvik2020/terriblytinytales/raw/master/Outputs/not_an_freq_of_word.JPG" alt="https://github.com/Charvik2020/terriblytinytales/raw/master/Outputs/not_an_freq_of_word.JPG">
+
+
+## Application Available at: https://terriblytinytales.herokuapp.com/
