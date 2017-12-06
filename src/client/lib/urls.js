@@ -1,2 +1,2 @@
-const domainURL = 'http://localhost:7080';
+const domainURL = 'https://terriblytinytales.herokuapp.com';
 export const submitNumber = domainURL + '/submitNumber';
